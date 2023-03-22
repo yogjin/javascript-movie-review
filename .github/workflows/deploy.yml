@@ -17,7 +17,7 @@ jobs:
 
       - name: Set API token
         env:
-          API_KEY: ${{ secrets.API_TOKEN }}
+          API_TOKEN: ${{ secrets.API_TOKEN }}
         run: echo $API_TOKEN
 
       - uses: actions/setup-node@v3
